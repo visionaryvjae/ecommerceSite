@@ -30,7 +30,7 @@ function dynamicCartSection(ob,itemCounter)
     boxDiv.appendChild(boxh3)
 
     let boxh4 = document.createElement('h4')
-    let h4Text = document.createTextNode('Amount: Rs' + ob.price)
+    let h4Text = document.createTextNode('Amount: R' + ob.price)
     boxh4.appendChild(h4Text)
     boxDiv.appendChild(boxh4)
 
@@ -135,7 +135,7 @@ httpRequest.onreadystatechange = function()
         }
 }
 
-httpRequest.open('GET', 'https://5d76bf96515d1a0014085cf9.mockapi.io/product', true)
+httpRequest.open('GET', /*'https://5d76bf96515d1a0014085cf9.mockapi.io/product'*/'https://64aaa24e0c6d844abedea441.mockapi.io/api/product/LoveCandyStoreAPI', true)
 httpRequest.send()
 
 

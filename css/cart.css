@@ -5,8 +5,18 @@ body
 }
 #cartMainContainer
 {
-    padding: 90px 50px;
+    padding: 160px 50px;
 }
+
+#cartMainContainer h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: xx-large;
+}
+
+#cartMainContainer h3{
+    font-family: 'Lobster', sans-serif;
+}
+
 #cartContainer
 {
     display: grid;
