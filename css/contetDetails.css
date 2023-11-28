@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-weight: 100;
 }
 
@@ -45,10 +45,14 @@ h1
     font-size: 35px;
     letter-spacing: 1px;
     word-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(252, 162, 204);
+    -webkit-text-stroke: 0.7px rgb(250, 100, 170);
 }
 h4
 {
     font-size: 15px;
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
     color: rgb(3, 122, 122);
     letter-spacing: 1px;

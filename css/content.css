@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 h1
 {
@@ -9,7 +9,10 @@ h1
     margin: auto;
     padding: 50px 0;
     letter-spacing: 2px;
-    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    color: rgb(252, 162, 204);
+    -webkit-text-stroke: 0.7px rgb(250, 100, 170);
+    font-weight: 800;
     text-transform: capitalize;
 }
 #containerClothing, #containerAccessories

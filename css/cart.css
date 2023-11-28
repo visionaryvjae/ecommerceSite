@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 #cartMainContainer
 {
@@ -9,12 +9,15 @@ body
 }
 
 #cartMainContainer h1{
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: xx-large;
+    color: rgb(252, 162, 204);
+    -webkit-text-stroke: 0.7px rgb(250, 100, 170);
 }
 
-#cartMainContainer h3{
-    font-family: 'Lobster', sans-serif;
+#totalItem {
+    font-family: 'Pacifico', cursive;
+    color: rgb(3, 122, 122);
 }
 
 #cartContainer
