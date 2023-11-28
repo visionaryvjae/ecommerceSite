@@ -85,7 +85,7 @@ httpRequest.onreadystatechange = function() {
 };
 httpRequest.open(
   "GET",
-  "https://5d76bf96515d1a0014085cf9.mockapi.io/product",
+  "https://64aaa24e0c6d844abedea441.mockapi.io/api/product/LoveCandyStoreAPI", //"https://5d76bf96515d1a0014085cf9.mockapi.io/product",
   true
 );
 httpRequest.send();
