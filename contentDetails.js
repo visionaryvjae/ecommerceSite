@@ -97,6 +97,7 @@ function dynamicContentDetails(ob)
         document.cookie = "orderId=" + order + ",counter=" + counter
         document.getElementById("badge").innerHTML = counter
         console.log(document.cookie)
+        alert("Item added to shopping cart");
     }
     buttonTag.appendChild(buttonText)
 
